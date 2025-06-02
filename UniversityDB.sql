@@ -79,14 +79,39 @@ BEGIN
         FacultyCourseID INT PRIMARY KEY IDENTITY(1,1),
         FacultyName VARCHAR(100) NOT NULL,
         FacultyID INT,
+        CourseName VARCHAR(100) NOT NULL,
         CourseID INT,
         FOREIGN KEY (FacultyID) REFERENCES Users(UserID),
         FOREIGN KEY (CourseID) REFERENCES Courses(CourseID)
     );
 END
+
+-- Demo Data: Courses
 INSERT INTO Courses (CourseName, Credits, Semester) VALUES ('Web Design', 3, 'Fall'); 
 INSERT INTO Courses (CourseName, Credits, Semester) VALUES ('Advanced Agile Software Development', 4, 'Spring'); 
 INSERT INTO Courses (CourseName, Credits, Semester) VALUES ('Business Finance', 3, 'Fall'); 
 INSERT INTO Courses (CourseName, Credits, Semester) VALUES ('Cybercrime', 3, 'Spring'); 
 INSERT INTO Courses (CourseName, Credits, Semester) VALUES ('Business Communication', 3, 'Fall'); 
 INSERT INTO Courses (CourseName, Credits, Semester) VALUES ('Project Development', 3, 'Spring');
+
+-- Demo Data: Users
+INSERT INTO Users (Username, PasswordHash, UserType) VALUES ('studentWhiskey', '12345', 'Student');
+INSERT INTO Users (Username, PasswordHash, UserType) VALUES ('studentTango', '12345', 'Student');
+INSERT INTO Users (Username, PasswordHash, UserType) VALUES ('studentFoxtrot', '12345', 'Student');
+INSERT INTO Users (Username, PasswordHash, UserType) VALUES ('facultyAlpha', '12345', 'Faculty');
+INSERT INTO Users (Username, PasswordHash, UserType) VALUES ('facultyBeta', '12345', 'Faculty');
+INSERT INTO Users (Username, PasswordHash, UserType) VALUES ('facultyCharlie', '12345', 'Faculty');
+INSERT INTO Users (Username, PasswordHash, UserType) VALUES ('admin', 'admin', 'Administrator');
+
+-- Demo Data: Enrollments
+INSERT INTO Enrollments (StudentID, CourseID, Grade, Attendance) VALUES ((SELECT UserID FROM Users WHERE Username LIKE 'studentWhiskey'), (SELECT CourseID FROM Courses WHERE CourseName LIKE 'Cybercrime'), 'A', 12);
+INSERT INTO Enrollments (StudentID, CourseID, Grade, Attendance) VALUES ((SELECT UserID FROM Users WHERE Username LIKE 'studentTango'), (SELECT CourseID FROM Courses WHERE CourseName LIKE 'Web Design'), 'B', 8);
+INSERT INTO Enrollments (StudentID, CourseID, Grade, Attendance) VALUES ((SELECT UserID FROM Users WHERE Username LIKE 'studentFoxtrot'), (SELECT CourseID FROM Courses WHERE CourseName LIKE 'Cybercrime'), 'D', 2);
+
+-- Demo Data: FacultyCourses
+INSERT INTO FacultyCourses (FacultyName, FacultyID, CourseName, CourseID) VALUES ((SELECT Username FROM Users WHERE Username LIKE 'facultyAlpha'), (SELECT UserID FROM Users WHERE Username LIKE 'facultyAlpha'), (SELECT CourseName FROM Courses WHERE CourseName LIKE 'Cybercrime'), (SELECT CourseID FROM Courses WHERE CourseName LIKE 'Cybercrime'));
+INSERT INTO FacultyCourses (FacultyName, FacultyID, CourseName, CourseID) VALUES ((SELECT Username FROM Users WHERE Username LIKE 'facultyAlpha'), (SELECT UserID FROM Users WHERE Username LIKE 'facultyAlpha'), (SELECT CourseName FROM Courses WHERE CourseName LIKE 'Business Communication'), (SELECT CourseID FROM Courses WHERE CourseName LIKE 'Business Communication'));
+INSERT INTO FacultyCourses (FacultyName, FacultyID, CourseName, CourseID) VALUES ((SELECT Username FROM Users WHERE Username LIKE 'facultyAlpha'), (SELECT UserID FROM Users WHERE Username LIKE 'facultyAlpha'), (SELECT CourseName FROM Courses WHERE CourseName LIKE 'Business Finance'), (SELECT CourseID FROM Courses WHERE CourseName LIKE 'Business Finance'));
+INSERT INTO FacultyCourses (FacultyName, FacultyID, CourseName, CourseID) VALUES ((SELECT Username FROM Users WHERE Username LIKE 'facultyBeta'), (SELECT UserID FROM Users WHERE Username LIKE 'facultyBeta'), (SELECT CourseName FROM Courses WHERE CourseName LIKE 'Web Design'), (SELECT CourseID FROM Courses WHERE CourseName LIKE 'Web Design'));
+INSERT INTO FacultyCourses (FacultyName, FacultyID, CourseName, CourseID) VALUES ((SELECT Username FROM Users WHERE Username LIKE 'facultyCharlie'), (SELECT UserID FROM Users WHERE Username LIKE 'facultyCharlie'), (SELECT CourseName FROM Courses WHERE CourseName LIKE 'Advanced Agile Software Development'), (SELECT CourseID FROM Courses WHERE CourseName LIKE 'Advanced Agile Software Development'));
+INSERT INTO FacultyCourses (FacultyName, FacultyID, CourseName, CourseID) VALUES ((SELECT Username FROM Users WHERE Username LIKE 'facultyCharlie'), (SELECT UserID FROM Users WHERE Username LIKE 'facultyCharlie'), (SELECT CourseName FROM Courses WHERE CourseName LIKE 'Project Development'), (SELECT CourseID FROM Courses WHERE CourseName LIKE 'Project Development'));
