@@ -35,6 +35,8 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            userTypeTextBox = new TextBox();
+            label4 = new Label();
             SuspendLayout();
             // 
             // loginButton
@@ -98,11 +100,29 @@
             label3.TabIndex = 6;
             label3.Text = "Enter Account Information";
             // 
+            // userTypeTextBox
+            // 
+            userTypeTextBox.Location = new Point(243, 286);
+            userTypeTextBox.Name = "userTypeTextBox";
+            userTypeTextBox.Size = new Size(200, 39);
+            userTypeTextBox.TabIndex = 7;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(61, 293);
+            label4.Name = "label4";
+            label4.Size = new Size(119, 32);
+            label4.TabIndex = 8;
+            label4.Text = "User Type";
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label4);
+            Controls.Add(userTypeTextBox);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -125,5 +145,7 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private TextBox userTypeTextBox;
+        private Label label4;
     }
 }

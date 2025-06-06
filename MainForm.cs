@@ -12,5 +12,11 @@ namespace TeamProject
             LoginForm loginForm = new LoginForm();
             loginForm.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ApplicationForm applicationForm = new ApplicationForm();
+            applicationForm.ShowDialog();
+        }
     }
 }

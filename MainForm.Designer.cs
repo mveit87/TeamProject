@@ -50,15 +50,16 @@
             button2.TabIndex = 1;
             button2.Text = "Creat Account";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
-            // Form1
+            // MainForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(button2);
             Controls.Add(loginButton);
-            Name = "Form1";
+            Name = "MainForm";
             Text = "Form1";
             ResumeLayout(false);
         }

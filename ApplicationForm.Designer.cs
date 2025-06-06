@@ -40,6 +40,8 @@
             exitButton = new Button();
             uploadButton = new Button();
             groupBox1 = new GroupBox();
+            userTypeTextBox = new TextBox();
+            label5 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -108,25 +110,27 @@
             // 
             // submitButton
             // 
-            submitButton.Location = new Point(65, 443);
+            submitButton.Location = new Point(40, 538);
             submitButton.Name = "submitButton";
             submitButton.Size = new Size(150, 46);
             submitButton.TabIndex = 8;
             submitButton.Text = "Submit";
             submitButton.UseVisualStyleBackColor = true;
+            submitButton.Click += submitButton_Click;
             // 
             // exitButton
             // 
-            exitButton.Location = new Point(271, 443);
+            exitButton.Location = new Point(430, 538);
             exitButton.Name = "exitButton";
             exitButton.Size = new Size(150, 46);
             exitButton.TabIndex = 9;
             exitButton.Text = "Exit";
             exitButton.UseVisualStyleBackColor = true;
+            exitButton.Click += exitButton_Click;
             // 
             // uploadButton
             // 
-            uploadButton.Location = new Point(65, 374);
+            uploadButton.Location = new Point(229, 538);
             uploadButton.Name = "uploadButton";
             uploadButton.Size = new Size(150, 46);
             uploadButton.TabIndex = 10;
@@ -142,11 +146,29 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Enter Applicant Information";
             // 
+            // userTypeTextBox
+            // 
+            userTypeTextBox.Location = new Point(219, 360);
+            userTypeTextBox.Name = "userTypeTextBox";
+            userTypeTextBox.Size = new Size(297, 39);
+            userTypeTextBox.TabIndex = 12;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(57, 367);
+            label5.Name = "label5";
+            label5.Size = new Size(124, 32);
+            label5.TabIndex = 13;
+            label5.Text = "User Type:";
+            // 
             // ApplicationForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1279, 1098);
+            Controls.Add(label5);
+            Controls.Add(userTypeTextBox);
             Controls.Add(groupBox1);
             Controls.Add(uploadButton);
             Controls.Add(exitButton);
@@ -179,5 +201,7 @@
         private Button exitButton;
         private Button uploadButton;
         private GroupBox groupBox1;
+        private TextBox userTypeTextBox;
+        private Label label5;
     }
 }

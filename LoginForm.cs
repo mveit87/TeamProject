@@ -15,13 +15,7 @@ namespace TeamProject
 {
     public partial class LoginForm : Form
     {
-        // Hardcoded user credentials for demonstration
-        private readonly string adminUsername = "admin";
-        private readonly string adminPassword = "admin123";
-        private readonly string facultyUsername = "faculty";
-        private readonly string facultyPassword = "faculty123";
-        private readonly string studentUsername = "student";
-        private readonly string studentPassword = "student123";
+       
 
         public LoginForm()
         {
@@ -32,7 +26,7 @@ namespace TeamProject
         {
             string username = userNameTextBox.Text;
             string password = passwordTextBox.Text;
-
+            string userType = userTypeTextBox.Text;
             //connects to database to grab user
             Debug.WriteLine("** grabbing user info **");
             DataTable dt = new DataTable();

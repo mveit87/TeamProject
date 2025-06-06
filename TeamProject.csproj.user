@@ -10,6 +10,12 @@
     <Compile Update="ApplicationForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="EnrollCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FacultyAddGradesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FacultyForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -22,10 +28,16 @@
     <Compile Update="StudentForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="StudentViewProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="TrackStudentForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UpdateCoursesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewGrades.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
