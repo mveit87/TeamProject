@@ -11,6 +11,7 @@ namespace TeamProject
         {
             LoginForm loginForm = new LoginForm();
             loginForm.ShowDialog();
+            this.Hide();
         }
     }
 }
