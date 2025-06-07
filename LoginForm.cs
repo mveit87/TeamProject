@@ -26,7 +26,7 @@ namespace TeamProject
         {
             string username = userNameTextBox.Text;
             string password = passwordTextBox.Text;
-            string userType = userTypeTextBox.Text;
+            //string userType = userTypeTextBox.Text;
             //connects to database to grab user
             Debug.WriteLine("** grabbing user info **");
             DataTable dt = new DataTable();

@@ -8,25 +8,11 @@ namespace TeamProject
 
     public partial class EnrollCourse : Form
     {
-        private void InitializeComponent()
-        {
-            using SqlConnection conn = new SqlConnection(Properties.Settings.Default.connString);
-            conn.Open(); // Ensure the connection is open
-
-            // Fetching courses
-            using SqlDataAdapter coursesAdapter = new SqlDataAdapter("SELECT * FROM Courses", conn);
-            DataTable coursesTable = new DataTable();
-            coursesAdapter.Fill(coursesTable);
-            courseNameComboBox.DisplayMember = "CourseName";
-            courseNameComboBox.DataSource = coursesTable;
-
-            // Fetching users
-            using SqlDataAdapter usersAdapter = new SqlDataAdapter("SELECT * FROM Users", conn);
-            DataTable usersTable = new DataTable();
-            usersAdapter.Fill(usersTable);
-            userNameComboBox.DisplayMember = "Username";
-            userNameComboBox.DataSource = usersTable;
+        public EnrollCourse()
+        { 
+            InitializeComponent(); 
         }
+
         private void enrollButton_Click(object sender, EventArgs e)
         {
             using SqlConnection conn = new SqlConnection(Properties.Settings.Default.connString);

@@ -41,6 +41,7 @@
             enrollButton.TabIndex = 1;
             enrollButton.Text = "Enroll in Course";
             enrollButton.UseVisualStyleBackColor = true;
+            enrollButton.Click += enrollButton_Click;
             // 
             // viewGradesButton
             // 
@@ -50,6 +51,7 @@
             viewGradesButton.TabIndex = 2;
             viewGradesButton.Text = "View Grades";
             viewGradesButton.UseVisualStyleBackColor = true;
+            viewGradesButton.Click += viewGradesButton_Click;
             // 
             // progressButton
             // 
@@ -59,6 +61,7 @@
             progressButton.TabIndex = 3;
             progressButton.Text = "View Progess";
             progressButton.UseVisualStyleBackColor = true;
+            progressButton.Click += progressButton_Click;
             // 
             // StudentForm
             // 
@@ -72,6 +75,8 @@
             Text = "StudentForm";
             ResumeLayout(false);
         }
+
+
 
         #endregion
 
