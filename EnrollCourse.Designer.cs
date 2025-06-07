@@ -1,4 +1,7 @@
-﻿namespace TeamProject
+﻿using System.Data;
+using System.Data.SqlClient;
+
+namespace TeamProject
 {
     partial class EnrollCourse
     {
@@ -101,9 +104,27 @@
             Controls.Add(enrollButton);
             Name = "EnrollCourse";
             Text = "EnrollCourse";
-            Load += EnrollCourse_Load;
+            //Load += EnrollCourse_Load;
             ResumeLayout(false);
             PerformLayout();
+
+            // SQL calls on initilization
+            using SqlConnection conn = new SqlConnection(Properties.Settings.Default.connString);
+            conn.Open(); // Ensure the connection is open
+
+            // Fetching courses
+            using SqlDataAdapter coursesAdapter = new SqlDataAdapter("SELECT * FROM Courses", conn);
+            DataTable coursesTable = new DataTable();
+            coursesAdapter.Fill(coursesTable);
+            courseNameComboBox.DisplayMember = "CourseName";
+            courseNameComboBox.DataSource = coursesTable;
+
+            // Fetching users
+            using SqlDataAdapter usersAdapter = new SqlDataAdapter("SELECT * FROM Users", conn);
+            DataTable usersTable = new DataTable();
+            usersAdapter.Fill(usersTable);
+            userNameComboBox.DisplayMember = "Username";
+            userNameComboBox.DataSource = usersTable;
         }
 
         #endregion

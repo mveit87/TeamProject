@@ -33,7 +33,7 @@ namespace TeamProject
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
                         command.Parameters.AddWithValue("@Username", username);
-                        command.Parameters.AddWithValue("@PasswordHash", HashPassword(password)); // Ensure to hash the password
+                        command.Parameters.AddWithValue("@PasswordHash", password);
                         command.Parameters.AddWithValue("@UserType", userType);
 
                         connection.Open();
@@ -58,7 +58,7 @@ namespace TeamProject
 
         private string HashPassword(string password)
         {
-            // Implement a hashing algorithm (e.g., SHA256) to hash the password
+            // Implement a hashing algorithm (e.g., SHA256) to hash the password (will be implemented at a later date)
             using (var sha256 = System.Security.Cryptography.SHA256.Create())
             {
                 byte[] bytes = sha256.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
