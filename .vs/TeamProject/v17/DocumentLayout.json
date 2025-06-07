@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\aaron\\source\\repos\\TeamProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\studentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:studentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\enrollcourse.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:enrollcourse.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\enrollcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:enrollcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\facultyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:facultyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\universitydb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:universitydb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\facultyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:facultyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\facultyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:facultyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\universitydb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
@@ -54,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "UniversityDB.sql ",
               "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\UniversityDB.sql",
               "RelativeDocumentMoniker": "UniversityDB.sql",
@@ -71,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LoginForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\LoginForm.Designer.cs",
               "RelativeDocumentMoniker": "LoginForm.Designer.cs",
               "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\LoginForm.Designer.cs",
               "RelativeToolTip": "LoginForm.Designer.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAowHsAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T23:05:13.482Z",
               "IsPinned": true,
@@ -85,13 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\LoginForm.cs",
               "RelativeDocumentMoniker": "LoginForm.cs",
               "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\LoginForm.cs",
               "RelativeToolTip": "LoginForm.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wCgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T23:03:18.457Z",
               "IsPinned": true,
@@ -120,99 +104,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnrollCourse.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\EnrollCourse.Designer.cs",
-              "RelativeDocumentMoniker": "EnrollCourse.Designer.cs",
-              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\EnrollCourse.Designer.cs",
-              "RelativeToolTip": "EnrollCourse.Designer.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowGoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T23:05:54.947Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnrollCourse.cs",
-              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\EnrollCourse.cs",
-              "RelativeDocumentMoniker": "EnrollCourse.cs",
-              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\EnrollCourse.cs",
-              "RelativeToolTip": "EnrollCourse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T23:07:42.199Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "FacultyForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\aaron\\Source\\Repos\\TeamProject\\FacultyForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\FacultyForm.Designer.cs",
               "RelativeDocumentMoniker": "FacultyForm.Designer.cs",
-              "ToolTip": "C:\\Users\\aaron\\Source\\Repos\\TeamProject\\FacultyForm.Designer.cs",
+              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\FacultyForm.Designer.cs",
               "RelativeToolTip": "FacultyForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAFoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T22:51:22.047Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "FacultyForm.cs",
               "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\FacultyForm.cs",
               "RelativeDocumentMoniker": "FacultyForm.cs",
               "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\FacultyForm.cs",
               "RelativeToolTip": "FacultyForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAtwE4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T22:51:03.481Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "FacultyForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\FacultyForm.cs",
               "RelativeDocumentMoniker": "FacultyForm.cs",
               "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\FacultyForm.cs [Design]",
               "RelativeToolTip": "FacultyForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T23:31:48.059Z",
+              "WhenOpened": "2025-06-07T16:19:32.91Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\StudentForm.Designer.cs",
-              "RelativeDocumentMoniker": "StudentForm.Designer.cs",
-              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\StudentForm.Designer.cs",
-              "RelativeToolTip": "StudentForm.Designer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T23:40:34.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentForm.cs",
-              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\StudentForm.cs",
-              "RelativeDocumentMoniker": "StudentForm.cs",
-              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\StudentForm.cs",
-              "RelativeToolTip": "StudentForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T23:40:25.731Z",
-              "EditorCaption": ""
             }
           ]
         }
