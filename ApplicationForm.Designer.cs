@@ -28,12 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            firstNameTextBox = new TextBox();
-            lastNameTextBox = new TextBox();
             userNameTextBox = new TextBox();
             passwordTextBox = new TextBox();
             submitButton = new Button();
@@ -44,28 +40,10 @@
             label5 = new Label();
             SuspendLayout();
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(56, 79);
-            label1.Name = "label1";
-            label1.Size = new Size(134, 32);
-            label1.TabIndex = 0;
-            label1.Text = "First Name:";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(56, 144);
-            label2.Name = "label2";
-            label2.Size = new Size(126, 32);
-            label2.TabIndex = 1;
-            label2.Text = "Last Name";
-            // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(56, 218);
+            label3.Location = new Point(56, 83);
             label3.Name = "label3";
             label3.Size = new Size(125, 32);
             label3.TabIndex = 2;
@@ -74,43 +52,29 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(56, 299);
+            label4.Location = new Point(57, 138);
             label4.Name = "label4";
             label4.Size = new Size(111, 32);
             label4.TabIndex = 3;
             label4.Text = "Password";
             // 
-            // firstNameTextBox
-            // 
-            firstNameTextBox.Location = new Point(229, 79);
-            firstNameTextBox.Name = "firstNameTextBox";
-            firstNameTextBox.Size = new Size(302, 39);
-            firstNameTextBox.TabIndex = 4;
-            // 
-            // lastNameTextBox
-            // 
-            lastNameTextBox.Location = new Point(219, 144);
-            lastNameTextBox.Name = "lastNameTextBox";
-            lastNameTextBox.Size = new Size(312, 39);
-            lastNameTextBox.TabIndex = 5;
-            // 
             // userNameTextBox
             // 
-            userNameTextBox.Location = new Point(219, 215);
+            userNameTextBox.Location = new Point(204, 83);
             userNameTextBox.Name = "userNameTextBox";
             userNameTextBox.Size = new Size(312, 39);
             userNameTextBox.TabIndex = 6;
             // 
             // passwordTextBox
             // 
-            passwordTextBox.Location = new Point(219, 292);
+            passwordTextBox.Location = new Point(204, 138);
             passwordTextBox.Name = "passwordTextBox";
             passwordTextBox.Size = new Size(312, 39);
             passwordTextBox.TabIndex = 7;
             // 
             // submitButton
             // 
-            submitButton.Location = new Point(40, 538);
+            submitButton.Location = new Point(57, 296);
             submitButton.Name = "submitButton";
             submitButton.Size = new Size(150, 46);
             submitButton.TabIndex = 8;
@@ -120,7 +84,7 @@
             // 
             // exitButton
             // 
-            exitButton.Location = new Point(430, 538);
+            exitButton.Location = new Point(422, 296);
             exitButton.Name = "exitButton";
             exitButton.Size = new Size(150, 46);
             exitButton.TabIndex = 9;
@@ -130,12 +94,13 @@
             // 
             // uploadButton
             // 
-            uploadButton.Location = new Point(229, 538);
+            uploadButton.Location = new Point(233, 296);
             uploadButton.Name = "uploadButton";
             uploadButton.Size = new Size(150, 46);
             uploadButton.TabIndex = 10;
             uploadButton.Text = "Upload";
             uploadButton.UseVisualStyleBackColor = true;
+            uploadButton.Click += uploadButton_Click;
             // 
             // groupBox1
             // 
@@ -148,7 +113,7 @@
             // 
             // userTypeTextBox
             // 
-            userTypeTextBox.Location = new Point(219, 360);
+            userTypeTextBox.Location = new Point(204, 199);
             userTypeTextBox.Name = "userTypeTextBox";
             userTypeTextBox.Size = new Size(297, 39);
             userTypeTextBox.TabIndex = 12;
@@ -156,7 +121,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(57, 367);
+            label5.Location = new Point(56, 202);
             label5.Name = "label5";
             label5.Size = new Size(124, 32);
             label5.TabIndex = 13;
@@ -166,7 +131,7 @@
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1279, 1098);
+            ClientSize = new Size(916, 523);
             Controls.Add(label5);
             Controls.Add(userTypeTextBox);
             Controls.Add(groupBox1);
@@ -175,12 +140,8 @@
             Controls.Add(submitButton);
             Controls.Add(passwordTextBox);
             Controls.Add(userNameTextBox);
-            Controls.Add(lastNameTextBox);
-            Controls.Add(firstNameTextBox);
             Controls.Add(label4);
             Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
             Name = "ApplicationForm";
             Text = "ApplicationForm";
             ResumeLayout(false);
@@ -188,13 +149,8 @@
         }
 
         #endregion
-
-        private Label label1;
-        private Label label2;
         private Label label3;
         private Label label4;
-        private TextBox firstNameTextBox;
-        private TextBox lastNameTextBox;
         private TextBox userNameTextBox;
         private TextBox passwordTextBox;
         private Button submitButton;

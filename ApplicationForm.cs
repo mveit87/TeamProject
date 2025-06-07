@@ -26,7 +26,7 @@ namespace TeamProject
 
             if (IsValidInput(username, password, userType))
             {
-                string connectionString = new(Properties.Settings.Default.connString); // Update with your connection string
+                string connectionString = new(Properties.Settings.Default.connString); 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     string query = "INSERT INTO Users (Username, PasswordHash, UserType) VALUES (@Username, @PasswordHash, @UserType)";
@@ -51,14 +51,14 @@ namespace TeamProject
 
         private bool IsValidInput(string username, string password, string userType)
         {
-            // Add validation logic (e.g., check for empty fields, valid user type)
+      
             return !string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password) &&
                    (userType == "Administrator" || userType == "Faculty" || userType == "Student");
         }
 
         private string HashPassword(string password)
         {
-            // Implement a hashing algorithm (e.g., SHA256) to hash the password (will be implemented at a later date)
+           
             using (var sha256 = System.Security.Cryptography.SHA256.Create())
             {
                 byte[] bytes = sha256.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
@@ -70,6 +70,33 @@ namespace TeamProject
         {
             Close();
         }
+
+        private void uploadButton_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.InitialDirectory = "c:\\";
+                openFileDialog.Filter = "All files (*.*)|*.*";
+                openFileDialog.Title = "Select a File";
+
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string filePath = openFileDialog.FileName;
+                    MessageBox.Show("File selected: " + filePath);
+
+                    // Define the destination path in the project folder
+                    string projectFolder = @"C:\C:\Users\merrick\Desktop\ASP\Dropbox06\bin\Debug\net8.0\"; 
+                    string fileName = Path.GetFileName(filePath);
+                    string destinationPath = Path.Combine(projectFolder, fileName);
+
+                    // Copy the file to the project folder
+                    File.Copy(filePath, destinationPath, true); 
+                    MessageBox.Show("File uploaded to: " + destinationPath);
+                }
+            }
+            }
+        }
     }
-}
+
+
 
