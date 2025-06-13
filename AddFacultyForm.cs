@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -20,11 +21,6 @@ namespace TeamProject
 
         private void AddFacultyForm_Load(object sender, EventArgs e)
         {
-            //connects to database to add advisee
-            SqlConnection sqlConnection = new(Properties.Settings.Default.connString);
-            using SqlConnection conn = sqlConnection;
-            using SqlDataAdapter adapter = new("SELECT * FROM FacultyCourses", conn);
-            DataTable facultyCoursesTable = new();
 
         }
 
@@ -43,6 +39,29 @@ namespace TeamProject
         private void ExitButton_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+            Debug.WriteLine("** search button clicked, grabbing from FacultyCourses table **");
+            string fName = searchTextBox.Text;
+            Debug.WriteLine("text box value: " + fName);
+            SqlConnection sqlConnection = new(Properties.Settings.Default.connString);
+            using SqlConnection conn = sqlConnection;
+            using SqlDataAdapter adapter = new("SELECT FC.FacultyName, FC.CourseName FROM FacultyCourses AS FC WHERE FacultyName LIKE @facultyName", conn);
+            adapter.SelectCommand.Parameters.AddWithValue("@facultyName", fName);
+            DataTable facultyCoursesTable = new();
+            adapter.Fill(facultyCoursesTable);
+            Debug.WriteLine("** search results **");
+            foreach (DataRow row in facultyCoursesTable.Rows)
+            {
+                string facultyNameResult = row["FacultyName"].ToString();
+                string courseNameResult = row["CourseName"].ToString();
+                Debug.WriteLine("faculty name: " + facultyNameResult);
+                Debug.WriteLine("course name: " + courseNameResult);
+            }
+            dataGridView1.DataSource = facultyCoursesTable;
+            dataGridView1.AutoResizeColumns();
         }
     }
 }
