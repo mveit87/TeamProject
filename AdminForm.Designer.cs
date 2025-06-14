@@ -50,7 +50,7 @@
             addFaculty.Name = "addFaculty";
             addFaculty.Size = new Size(259, 46);
             addFaculty.TabIndex = 1;
-            addFaculty.Text = "Add Faculty";
+            addFaculty.Text = "Search or Add Faculty";
             addFaculty.UseVisualStyleBackColor = true;
             addFaculty.Click += addFaculty_Click;
             // 
@@ -60,7 +60,7 @@
             trackStudentButton.Name = "trackStudentButton";
             trackStudentButton.Size = new Size(259, 46);
             trackStudentButton.TabIndex = 2;
-            trackStudentButton.Text = "track Student Performance";
+            trackStudentButton.Text = "Track Student Performance";
             trackStudentButton.UseVisualStyleBackColor = true;
             trackStudentButton.Click += trackStudentButton_Click;
             // 
