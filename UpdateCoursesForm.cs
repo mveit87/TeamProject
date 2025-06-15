@@ -17,7 +17,7 @@ namespace TeamProject
         {
             InitializeComponent();
         }
-
+        // This method is called when the form loads, it initializes the form components and populates the courses listbox with data from the database
         private void UpdateCoursesForm_Load(object sender, EventArgs e)
         {
             SqlConnection sqlConnection = new(Properties.Settings.Default.connString);
@@ -42,7 +42,7 @@ namespace TeamProject
             comd.ExecuteNonQuery();
             MessageBox.Show("Course saved.");
         }
-
+        // This method is called when the update button is clicked, it updates the selected course in the database with the new values from the text boxes
         private void deleteButton_Click(object sender, EventArgs e)
         {
             using SqlConnection conn = new(Properties.Settings.Default.connString);
@@ -52,7 +52,7 @@ namespace TeamProject
             comd.ExecuteNonQuery();
             MessageBox.Show("Course deleted.");
         }
-
+        // This method is called when the courses listbox selection changes, it populates the text boxes with the selected course's details
         private void findButton_Click(object sender, EventArgs e)
         {
             using SqlConnection conn = new(Properties.Settings.Default.connString);

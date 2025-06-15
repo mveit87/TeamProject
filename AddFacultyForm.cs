@@ -23,7 +23,7 @@ namespace TeamProject
         {
 
         }
-
+        // This method is called when the add button is clicked, it saves the new faculty member to the FacultyCourses table
         private void addButton_Click(object sender, EventArgs e)
         {
             // Saves added advisee to database
@@ -40,7 +40,7 @@ namespace TeamProject
         {
             Close();
         }
-
+        // This method is called when the search button is clicked, it searches for faculty members in the FacultyCourses table based on the input from the search text box
         private void searchButton_Click(object sender, EventArgs e)
         {
             Debug.WriteLine("** search button clicked, grabbing from FacultyCourses table **");

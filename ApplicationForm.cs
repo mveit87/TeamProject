@@ -17,7 +17,7 @@ namespace TeamProject
         {
             InitializeComponent();
         }
-
+        // This method is called when the form loads, it initializes the form components
         private void submitButton_Click(object sender, EventArgs e)
         {
             string username = userNameTextBox.Text;
@@ -70,7 +70,7 @@ namespace TeamProject
         {
             Close();
         }
-
+        // This method is called when the upload button is clicked, it opens a file dialog to select a file and uploads it to the specified project folder
         private void uploadButton_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())

@@ -19,7 +19,7 @@ namespace TeamProject
         {
             InitializeComponent();
         }
-
+        // updates the Enrollments table with the selected EnrollmentID, grade, and attendance values
         private void updateButton_Click(object sender, EventArgs e)
         {
             string enIDstring = comboBox1.SelectedValue.ToString();
@@ -41,7 +41,7 @@ namespace TeamProject
             Debug.WriteLine(result);
 
         }
-
+        // This method is called when the form loads, it populates the DataGridView with data from the Enrollments table
         private void FacultyForm_Load(object sender, EventArgs e)
         {
             Debug.WriteLine("** form load, grabbing from Enrollments table");
@@ -57,7 +57,7 @@ namespace TeamProject
             comboBox1.ValueMember = "EnrollmentID";
             comboBox1.DataSource = courseTable;
         }
-
+        // This method is called when the refresh button is clicked, it refreshes the DataGridView with the latest data from the Enrollments table
         private void refreshButton_Click(object sender, EventArgs e)
         {
             Debug.WriteLine("** refresh button clicked, grabbing latest from Enrollments table");
@@ -72,7 +72,7 @@ namespace TeamProject
             comboBox1.ValueMember = "EnrollmentID";
             comboBox1.DataSource = courseTable;
         }
-
+        // This method is called when the selected index of the comboBox changes, it retrieves the selected EnrollmentID and updates the text boxes with the corresponding grade and attendance values
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             string enIDstring = comboBox1.SelectedValue.ToString();

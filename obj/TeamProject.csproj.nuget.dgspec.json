@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aaron\\Source\\Repos\\TeamProject\\TeamProject.csproj": {}
+    "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\TeamProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aaron\\Source\\Repos\\TeamProject\\TeamProject.csproj": {
+    "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\TeamProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aaron\\Source\\Repos\\TeamProject\\TeamProject.csproj",
+        "projectUniqueName": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\TeamProject.csproj",
         "projectName": "TeamProject",
-        "projectPath": "C:\\Users\\aaron\\Source\\Repos\\TeamProject\\TeamProject.csproj",
-        "packagesPath": "C:\\Users\\aaron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aaron\\Source\\Repos\\TeamProject\\obj\\",
+        "projectPath": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\TeamProject.csproj",
+        "packagesPath": "C:\\Users\\merrick\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\merrick\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -67,24 +67,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.36, 6.0.36]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -93,7 +75,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

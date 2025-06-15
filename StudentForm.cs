@@ -16,7 +16,7 @@ namespace TeamProject
         {
             InitializeComponent();
         }
-
+        // This method is called when the form loads, it initializes the form components and allows user to choose between enrolling in a course, viewing grades, or viewing progress
         private void enrollButton_Click(object sender, EventArgs e)
         {
             EnrollCourse enrollCourse = new EnrollCourse();

@@ -17,7 +17,7 @@ namespace TeamProject
         {
             InitializeComponent();
         }
-
+        // This method is called when the form loads, it initializes the form components and sets up the data grid view for displaying user grades
         private void findButton_Click(object sender, EventArgs e)
         {
             string studentName = userNameTextBox.Text;

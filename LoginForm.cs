@@ -21,7 +21,7 @@ namespace TeamProject
         {
             InitializeComponent();
         }
-
+        // This method is called when the form loads, it initializes the form components and also allows user to enter in login inforamtion to the application
         private void loginButton_Click(object sender, EventArgs e)
         {
             string username = userNameTextBox.Text;

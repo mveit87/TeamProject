@@ -12,7 +12,7 @@ namespace TeamProject
         { 
             InitializeComponent(); 
         }
-
+        // This method is called when the form loads, it populates the course and user combo boxes with data from the Courses and Users tables
         private void enrollButton_Click(object sender, EventArgs e)
         {
             using SqlConnection conn = new SqlConnection(Properties.Settings.Default.connString);

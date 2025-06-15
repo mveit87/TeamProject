@@ -16,7 +16,7 @@ namespace TeamProject
         {
             InitializeComponent();
         }
-
+        // admin portal that redirectsad to the AddCourseForm, UpdateCoursesForm, AddFacultyForm, and TrackStudentForm
         private void updateCoursesButton_Click(object sender, EventArgs e)
         {
             UpdateCoursesForm updateCoursesForm = new UpdateCoursesForm();

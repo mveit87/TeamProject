@@ -17,7 +17,7 @@ namespace TeamProject
         {
             InitializeComponent();
         }
-
+        // This method is called when the form loads, it initializes the form components and allows user to search for students, courses, or faculty
         private void findStudentButton_Click(object sender, EventArgs e)
         {
             string studentName = studentNameTextBox.Text;
@@ -29,7 +29,7 @@ namespace TeamProject
             studentDataGridView.DataSource = userTable; // Use the correct variable name
         }
 
-
+        // This method is called when the find course button is clicked, it retrieves courses based on the course name entered in the text box
         private void findCourseButton_Click(object sender, EventArgs e)
         {
             string courseName = courseNameTextBox.Text;
@@ -40,7 +40,7 @@ namespace TeamProject
             adapter.Fill(coursesTable);
             studentDataGridView.DataSource = coursesTable;
         }
-
+        // This method is called when the find faculty button is clicked, it retrieves faculty courses based on the faculty name entered in the text box
         private void findFacultyButton_Click(object sender, EventArgs e)
         {
             string facultyName = facultyTextBox.Text;
@@ -51,17 +51,13 @@ namespace TeamProject
             adapter.Fill(facultyTable);
             studentDataGridView.DataSource = facultyTable;
         }
-
+        // This method is called when the clear button is clicked, it clears the text boxes and the DataGridView
         private void clearButton_Click(object sender, EventArgs e)
         {
-            // Clear all text boxes
-            foreach (Control control in this.Controls)
-            {
-                if (control is TextBox)
-                {
-                    control.Text = string.Empty;
-                }
-            }
+            // Clear specific text boxes
+            studentNameTextBox.Text = string.Empty;
+            courseNameTextBox.Text = string.Empty;
+            facultyTextBox.Text = string.Empty;
 
             // Clear the DataGridView
             studentDataGridView.Rows.Clear();
