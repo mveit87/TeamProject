@@ -90,7 +90,9 @@ namespace TeamProject
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            Close();
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
+            this.Hide();
         }
 
         

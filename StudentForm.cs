@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace TeamProject
 {
-    public partial class StudentForm: Form
+    public partial class StudentForm : Form
     {
         public StudentForm()
         {
@@ -36,6 +36,11 @@ namespace TeamProject
             StudentViewProgress studentViewProgress = new StudentViewProgress();
             studentViewProgress.Show();
             this.Hide();
+        }
+
+        private void quitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

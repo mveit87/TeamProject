@@ -69,7 +69,9 @@ namespace TeamProject
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            Close();
+            AdminForm adminForm = new AdminForm();
+            adminForm.Show();
+            this.Hide();
         }
     }
 }

@@ -35,15 +35,14 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            //userTypeTextBox = new TextBox();
-            //label4 = new Label();
             SuspendLayout();
             // 
             // loginButton
             // 
-            loginButton.Location = new Point(122, 367);
+            loginButton.Location = new Point(66, 172);
+            loginButton.Margin = new Padding(2, 1, 2, 1);
             loginButton.Name = "loginButton";
-            loginButton.Size = new Size(150, 46);
+            loginButton.Size = new Size(81, 22);
             loginButton.TabIndex = 0;
             loginButton.Text = "Login";
             loginButton.UseVisualStyleBackColor = true;
@@ -51,9 +50,10 @@
             // 
             // exitButton
             // 
-            exitButton.Location = new Point(391, 367);
+            exitButton.Location = new Point(211, 172);
+            exitButton.Margin = new Padding(2, 1, 2, 1);
             exitButton.Name = "exitButton";
-            exitButton.Size = new Size(150, 46);
+            exitButton.Size = new Size(81, 22);
             exitButton.TabIndex = 1;
             exitButton.Text = "Exit";
             exitButton.UseVisualStyleBackColor = true;
@@ -61,68 +61,55 @@
             // 
             // userNameTextBox
             // 
-            userNameTextBox.Location = new Point(243, 111);
+            userNameTextBox.Location = new Point(131, 52);
+            userNameTextBox.Margin = new Padding(2, 1, 2, 1);
             userNameTextBox.Name = "userNameTextBox";
-            userNameTextBox.Size = new Size(200, 39);
+            userNameTextBox.Size = new Size(161, 23);
             userNameTextBox.TabIndex = 2;
             // 
             // passwordTextBox
             // 
-            passwordTextBox.Location = new Point(243, 225);
+            passwordTextBox.Location = new Point(131, 105);
+            passwordTextBox.Margin = new Padding(2, 1, 2, 1);
             passwordTextBox.Name = "passwordTextBox";
-            passwordTextBox.Size = new Size(200, 39);
+            passwordTextBox.Size = new Size(161, 23);
             passwordTextBox.TabIndex = 3;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(51, 111);
+            label1.Location = new Point(27, 52);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(132, 32);
+            label1.Size = new Size(65, 15);
             label1.TabIndex = 4;
             label1.Text = "User Name";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(61, 232);
+            label2.Location = new Point(33, 109);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(111, 32);
+            label2.Size = new Size(57, 15);
             label2.TabIndex = 5;
             label2.Text = "Password";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(42, 36);
+            label3.Location = new Point(23, 17);
+            label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(295, 32);
+            label3.Size = new Size(148, 15);
             label3.TabIndex = 6;
             label3.Text = "Enter Account Information";
             // 
-            // userTypeTextBox
-            // 
-            //userTypeTextBox.Location = new Point(243, 286);
-            //userTypeTextBox.Name = "userTypeTextBox";
-            //userTypeTextBox.Size = new Size(200, 39);
-            //userTypeTextBox.TabIndex = 7;
-            // 
-            // label4
-            // 
-            //label4.AutoSize = true;
-            //label4.Location = new Point(61, 293);
-            //label4.Name = "label4";
-            //label4.Size = new Size(119, 32);
-            //label4.TabIndex = 8;
-            //label4.Text = "User Type";
-            // 
             // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            //Controls.Add(label4);
-            //Controls.Add(userTypeTextBox);
+            ClientSize = new Size(345, 211);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -130,6 +117,7 @@
             Controls.Add(userNameTextBox);
             Controls.Add(exitButton);
             Controls.Add(loginButton);
+            Margin = new Padding(2, 1, 2, 1);
             Name = "LoginForm";
             Text = "LoginForm";
             ResumeLayout(false);

@@ -38,7 +38,9 @@ namespace TeamProject
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
-            Close();
+            AdminForm adminForm = new AdminForm();
+            adminForm.Show();
+            this.Hide();
         }
         // This method is called when the search button is clicked, it searches for faculty members in the FacultyCourses table based on the input from the search text box
         private void searchButton_Click(object sender, EventArgs e)

@@ -9,8 +9,8 @@ namespace TeamProject
     public partial class EnrollCourse : Form
     {
         public EnrollCourse()
-        { 
-            InitializeComponent(); 
+        {
+            InitializeComponent();
         }
         // This method is called when the form loads, it populates the course and user combo boxes with data from the Courses and Users tables
         private void enrollButton_Click(object sender, EventArgs e)
@@ -35,6 +35,12 @@ namespace TeamProject
             }
         }
 
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            StudentForm studentForm = new StudentForm();
+            studentForm.Show();
+            this.Hide();
+        }
     }
 }
 

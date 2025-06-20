@@ -23,13 +23,20 @@ namespace TeamProject
             string studentName = userNameTextBox.Text;
             using SqlConnection conn = new(Properties.Settings.Default.connString);
             using SqlDataAdapter adapter = new($"SELECT * FROM Enrollments WHERE UserId = @userId", conn);
-            adapter.SelectCommand.Parameters.AddWithValue("@userId", "UserID"); 
+            adapter.SelectCommand.Parameters.AddWithValue("@userId", "UserID");
             adapter.SelectCommand.Parameters.AddWithValue("@courseId", "COurseId");
             adapter.SelectCommand.Parameters.AddWithValue("@grade", "Grade");
-           
-            DataTable EnrollmentsTable = new(); 
+
+            DataTable EnrollmentsTable = new();
             adapter.Fill(EnrollmentsTable);
             userGradesDataGridView.DataSource = EnrollmentsTable;
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            StudentForm studentForm = new StudentForm();
+            studentForm.Show();
+            this.Hide();
         }
     }
 }

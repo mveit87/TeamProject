@@ -115,3 +115,8 @@ INSERT INTO FacultyCourses (FacultyName, FacultyID, CourseName, CourseID) VALUES
 INSERT INTO FacultyCourses (FacultyName, FacultyID, CourseName, CourseID) VALUES ((SELECT Username FROM Users WHERE Username LIKE 'facultyBeta'), (SELECT UserID FROM Users WHERE Username LIKE 'facultyBeta'), (SELECT CourseName FROM Courses WHERE CourseName LIKE 'Web Design'), (SELECT CourseID FROM Courses WHERE CourseName LIKE 'Web Design'));
 INSERT INTO FacultyCourses (FacultyName, FacultyID, CourseName, CourseID) VALUES ((SELECT Username FROM Users WHERE Username LIKE 'facultyCharlie'), (SELECT UserID FROM Users WHERE Username LIKE 'facultyCharlie'), (SELECT CourseName FROM Courses WHERE CourseName LIKE 'Advanced Agile Software Development'), (SELECT CourseID FROM Courses WHERE CourseName LIKE 'Advanced Agile Software Development'));
 INSERT INTO FacultyCourses (FacultyName, FacultyID, CourseName, CourseID) VALUES ((SELECT Username FROM Users WHERE Username LIKE 'facultyCharlie'), (SELECT UserID FROM Users WHERE Username LIKE 'facultyCharlie'), (SELECT CourseName FROM Courses WHERE CourseName LIKE 'Project Development'), (SELECT CourseID FROM Courses WHERE CourseName LIKE 'Project Development'));
+
+-- Demo Data: DegreeAudit
+INSERT INTO DegreeAudit (StudentID, TotalCredits, GraduationDate) VALUES ((SELECT UserID FROM Users WHERE Username LIKE 'studentWhiskey'), 21, '2029-12-21');
+INSERT INTO DegreeAudit (StudentID, TotalCredits, GraduationDate) VALUES ((SELECT UserID FROM Users WHERE Username LIKE 'studentTango'), 24, '2029-04-20');
+INSERT INTO DegreeAudit (StudentID, TotalCredits, GraduationDate) VALUES ((SELECT UserID FROM Users WHERE Username LIKE 'studentFoxtrot'), 9, '2032-06-02');

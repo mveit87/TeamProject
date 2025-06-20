@@ -33,31 +33,35 @@
             findButton = new Button();
             label1 = new Label();
             label2 = new Label();
+            exitButton = new Button();
             ((System.ComponentModel.ISupportInitialize)userGradesDataGridView).BeginInit();
             SuspendLayout();
             // 
             // userGradesDataGridView
             // 
             userGradesDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            userGradesDataGridView.Location = new Point(22, 353);
+            userGradesDataGridView.Location = new Point(12, 165);
+            userGradesDataGridView.Margin = new Padding(2, 1, 2, 1);
             userGradesDataGridView.Name = "userGradesDataGridView";
             userGradesDataGridView.RowHeadersWidth = 82;
             userGradesDataGridView.RowTemplate.Height = 41;
-            userGradesDataGridView.Size = new Size(924, 245);
+            userGradesDataGridView.Size = new Size(498, 115);
             userGradesDataGridView.TabIndex = 0;
             // 
             // userNameTextBox
             // 
-            userNameTextBox.Location = new Point(234, 87);
+            userNameTextBox.Location = new Point(126, 41);
+            userNameTextBox.Margin = new Padding(2, 1, 2, 1);
             userNameTextBox.Name = "userNameTextBox";
-            userNameTextBox.Size = new Size(290, 39);
+            userNameTextBox.Size = new Size(158, 23);
             userNameTextBox.TabIndex = 1;
             // 
             // findButton
             // 
-            findButton.Location = new Point(589, 80);
+            findButton.Location = new Point(317, 38);
+            findButton.Margin = new Padding(2, 1, 2, 1);
             findButton.Name = "findButton";
-            findButton.Size = new Size(150, 46);
+            findButton.Size = new Size(81, 22);
             findButton.TabIndex = 2;
             findButton.Text = "Find";
             findButton.UseVisualStyleBackColor = true;
@@ -66,31 +70,45 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(31, 295);
+            label1.Location = new Point(17, 138);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(309, 32);
+            label1.Size = new Size(152, 15);
             label1.TabIndex = 3;
             label1.Text = "Student courses and grades";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(63, 94);
+            label2.Location = new Point(34, 44);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(132, 32);
+            label2.Size = new Size(65, 15);
             label2.TabIndex = 4;
             label2.Text = "User Name";
             // 
+            // exitButton
+            // 
+            exitButton.Location = new Point(435, 313);
+            exitButton.Name = "exitButton";
+            exitButton.Size = new Size(75, 23);
+            exitButton.TabIndex = 5;
+            exitButton.Text = "Exit";
+            exitButton.UseVisualStyleBackColor = true;
+            exitButton.Click += exitButton_Click;
+            // 
             // ViewGrades
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(984, 646);
+            ClientSize = new Size(530, 352);
+            Controls.Add(exitButton);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(findButton);
             Controls.Add(userNameTextBox);
             Controls.Add(userGradesDataGridView);
+            Margin = new Padding(2, 1, 2, 1);
             Name = "ViewGrades";
             Text = "ViewGrades";
             ((System.ComponentModel.ISupportInitialize)userGradesDataGridView).EndInit();
@@ -105,5 +123,6 @@
         private Button findButton;
         private Label label1;
         private Label label2;
+        private Button exitButton;
     }
 }
