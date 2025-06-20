@@ -19,5 +19,10 @@ namespace TeamProject
             ApplicationForm applicationForm = new ApplicationForm();
             applicationForm.ShowDialog();
         }
+
+        private void quitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

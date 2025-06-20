@@ -76,7 +76,7 @@
             ExitButton.Name = "ExitButton";
             ExitButton.Size = new Size(81, 22);
             ExitButton.TabIndex = 3;
-            ExitButton.Text = "EXIT";
+            ExitButton.Text = "Exit";
             ExitButton.UseVisualStyleBackColor = true;
             ExitButton.Click += ExitButton_Click;
             // 

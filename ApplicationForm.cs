@@ -68,8 +68,9 @@ namespace TeamProject
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Hide();
         }
+        
         // This method is called when the upload button is clicked, it opens a file dialog to select a file and uploads it to the specified project folder
         private void uploadButton_Click(object sender, EventArgs e)
         {

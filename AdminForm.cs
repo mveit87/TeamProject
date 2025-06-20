@@ -31,8 +31,13 @@ namespace TeamProject
 
         private void trackStudentButton_Click(object sender, EventArgs e)
         {
-           TrackStudentForm trackStudentForm = new TrackStudentForm();
+            TrackStudentForm trackStudentForm = new TrackStudentForm();
             trackStudentForm.ShowDialog();
+        }
+
+        private void quitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

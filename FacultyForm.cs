@@ -94,5 +94,10 @@ namespace TeamProject
             textBox1.Text = gradeResult;
             textBox2.Text = attendanceResult;
         }
+
+        private void quitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

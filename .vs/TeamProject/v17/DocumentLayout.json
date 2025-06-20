@@ -1,70 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\",
+  "WorkspaceRootPath": "C:\\Users\\aaron\\source\\repos\\TeamProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\trackstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:trackstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\trackstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:trackstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\studentviewprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:studentviewprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\enrollcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:enrollcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\viewgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:viewgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\updatecoursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:updatecoursesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:studentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\facultyaddgradesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:facultyaddgradesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\applicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\applicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:applicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\addfacultyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:addfacultyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\facultyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:facultyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\applicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:applicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\facultyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:facultyform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\merrick\\desktop\\teamproject\\teamproject\\universitydb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\universitydb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:universitydb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\studentviewprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:studentviewprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\enrollcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:enrollcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\viewgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:viewgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\studentviewprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:studentviewprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\universitydb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:universitydb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|c:\\users\\aaron\\source\\repos\\teamproject\\universitydb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{B081840B-00FB-492F-9992-7C2EB8280042}|TeamProject.csproj|solutionrelative:universitydb.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,121 +58,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UniversityDB.sql",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\UniversityDB.sql",
+              "DocumentIndex": 4,
+              "Title": "UniversityDB.sql ",
+              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\UniversityDB.sql",
               "RelativeDocumentMoniker": "UniversityDB.sql",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\UniversityDB.sql",
+              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\UniversityDB.sql",
               "RelativeToolTip": "UniversityDB.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-06-09T22:42:45.508Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TrackStudentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\TrackStudentForm.cs",
-              "RelativeDocumentMoniker": "TrackStudentForm.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\TrackStudentForm.cs [Design]",
-              "RelativeToolTip": "TrackStudentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:57:05.453Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ViewGrades.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\ViewGrades.cs",
-              "RelativeDocumentMoniker": "ViewGrades.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\ViewGrades.cs",
-              "RelativeToolTip": "ViewGrades.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAACSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:54:27.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TrackStudentForm.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\TrackStudentForm.cs",
-              "RelativeDocumentMoniker": "TrackStudentForm.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\TrackStudentForm.cs",
-              "RelativeToolTip": "TrackStudentForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:53:31.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentViewProgress.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\StudentViewProgress.cs",
-              "RelativeDocumentMoniker": "StudentViewProgress.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\StudentViewProgress.cs",
-              "RelativeToolTip": "StudentViewProgress.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:53:26.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StudentForm.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\StudentForm.cs",
-              "RelativeDocumentMoniker": "StudentForm.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\StudentForm.cs",
-              "RelativeToolTip": "StudentForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAC1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:53:12.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:52:58.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FacultyAddGradesForm.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\FacultyAddGradesForm.cs",
-              "RelativeDocumentMoniker": "FacultyAddGradesForm.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\FacultyAddGradesForm.cs",
-              "RelativeToolTip": "FacultyAddGradesForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:52:06.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationForm.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\ApplicationForm.cs",
-              "RelativeDocumentMoniker": "ApplicationForm.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\ApplicationForm.cs",
-              "RelativeToolTip": "ApplicationForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAACaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:51:26.364Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -197,93 +79,135 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnrollCourse.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\EnrollCourse.cs",
-              "RelativeDocumentMoniker": "EnrollCourse.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\EnrollCourse.cs",
-              "RelativeToolTip": "EnrollCourse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACOAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ApplicationForm.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\ApplicationForm.cs",
+              "RelativeDocumentMoniker": "ApplicationForm.cs",
+              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\ApplicationForm.cs",
+              "RelativeToolTip": "ApplicationForm.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T21:58:14.24Z",
+              "WhenOpened": "2025-06-20T14:18:13.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddFacultyForm.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\AddFacultyForm.cs",
-              "RelativeDocumentMoniker": "AddFacultyForm.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\AddFacultyForm.cs",
-              "RelativeToolTip": "AddFacultyForm.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACoAAACrAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ApplicationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\ApplicationForm.cs",
+              "RelativeDocumentMoniker": "ApplicationForm.cs",
+              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\ApplicationForm.cs [Design]",
+              "RelativeToolTip": "ApplicationForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:51:05.451Z",
+              "WhenOpened": "2025-06-20T14:18:09.32Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "980438b7-a326-41c7-8418-45bfc00a6066",
+        "Display": 1,
+        "X": -8,
+        "Y": 0,
+        "Width": 1038,
+        "Height": 744,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:07:15.743Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\LoginForm.cs [Design]",
+              "RelativeToolTip": "LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:15:18.325Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:15:24.61Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentViewProgress.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\StudentViewProgress.cs",
+              "RelativeDocumentMoniker": "StudentViewProgress.cs",
+              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\StudentViewProgress.cs [Design]",
+              "RelativeToolTip": "StudentViewProgress.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T14:06:51.399Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UpdateCoursesForm.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\UpdateCoursesForm.cs",
-              "RelativeDocumentMoniker": "UpdateCoursesForm.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\UpdateCoursesForm.cs",
-              "RelativeToolTip": "UpdateCoursesForm.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAswDYAAACLAAAAAAAAAA==",
+              "Title": "StudentViewProgress.cs",
+              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\StudentViewProgress.cs",
+              "RelativeDocumentMoniker": "StudentViewProgress.cs",
+              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\StudentViewProgress.cs",
+              "RelativeToolTip": "StudentViewProgress.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T21:57:46.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AdminForm.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\AdminForm.cs",
-              "RelativeDocumentMoniker": "AdminForm.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\AdminForm.cs",
-              "RelativeToolTip": "AdminForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAB2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:50:37.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FacultyForm.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\FacultyForm.cs",
-              "RelativeDocumentMoniker": "FacultyForm.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\FacultyForm.cs",
-              "RelativeToolTip": "FacultyForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAADGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T21:59:10.477Z",
+              "WhenOpened": "2025-06-20T14:16:08.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LoginForm.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\LoginForm.cs",
-              "RelativeToolTip": "LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAACeAAAAAAAAAA==",
+              "Title": "ViewGrades.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\ViewGrades.cs",
+              "RelativeDocumentMoniker": "ViewGrades.cs",
+              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\ViewGrades.cs [Design]",
+              "RelativeToolTip": "ViewGrades.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T21:46:48.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T14:05:02.937Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FacultyForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\FacultyForm.Designer.cs",
-              "RelativeDocumentMoniker": "FacultyForm.Designer.cs",
-              "ToolTip": "C:\\Users\\merrick\\Desktop\\teamProject\\TeamProject\\FacultyForm.Designer.cs",
-              "RelativeToolTip": "FacultyForm.Designer.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "EnrollCourse.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\aaron\\source\\repos\\TeamProject\\EnrollCourse.cs",
+              "RelativeDocumentMoniker": "EnrollCourse.cs",
+              "ToolTip": "C:\\Users\\aaron\\source\\repos\\TeamProject\\EnrollCourse.cs [Design]",
+              "RelativeToolTip": "EnrollCourse.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T21:59:42.597Z"
+              "WhenOpened": "2025-06-20T14:05:21.663Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

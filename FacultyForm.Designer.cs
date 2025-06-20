@@ -38,6 +38,7 @@
             textBox2 = new TextBox();
             label3 = new Label();
             label4 = new Label();
+            quitButton = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -130,11 +131,22 @@
             label4.TabIndex = 10;
             label4.Text = "Attendance";
             // 
+            // quitButton
+            // 
+            quitButton.Location = new Point(468, 496);
+            quitButton.Name = "quitButton";
+            quitButton.Size = new Size(75, 23);
+            quitButton.TabIndex = 11;
+            quitButton.Text = "Quit";
+            quitButton.UseVisualStyleBackColor = true;
+            quitButton.Click += quitButton_Click;
+            // 
             // FacultyForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(569, 539);
+            Controls.Add(quitButton);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(textBox2);
@@ -166,5 +178,6 @@
         private TextBox textBox2;
         private Label label3;
         private Label label4;
+        private Button quitButton;
     }
 }
